@@ -64,7 +64,7 @@ body {
 }
 
 #logopicture {
- height: 180px;
+ height: 8vw;
 }
 
 /* - - - - - - PHOTOGRID - - - - - - */
@@ -233,10 +233,6 @@ h1 {
   body {
     background-image: url("images/hatter/bg4small.jpg");
   }
-  p {
-    font-size: 24px;
-    text-align: center;
-  }
   .navigation {
     margin-top: -30px;
   }
@@ -251,20 +247,11 @@ h1 {
   ul li:nth-child(3) {
     order: -1;
   }
-  #logopicture {
-    width: 60%;
-    height: 60%;
-  }
+
   .photogrid img {
     margin-bottom: 25px;
   }
   .welcome-text p {
     display: none;
-  }
-}
-
-
-@media screen and (min-width: 600px) {
-  .bg-image {
   }
 }

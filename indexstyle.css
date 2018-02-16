@@ -52,7 +52,6 @@
 }
 
 #logopicture {
- height: 180px;
 }
 
 p {
@@ -61,10 +60,6 @@ p {
 }
 
 /* - - - - - - FOOTER - - - - - - */
-
-#copyright {
-  font-size: 16px;
-}
 
 /* - - - - - - HOVER - - - - - - */
 
@@ -86,6 +81,7 @@ p {
     background-image: url("images/hatter/bg3small.jpg");
   }
   .navigation {
+    display: none;
     margin-top: -30px;
   }
   .navigation li {
@@ -99,10 +95,7 @@ p {
   ul li:nth-child(3) {
     order: -1;
   }
-  #logopicture {
-    width: 60%;
-    height: 60%;
-  }
+
   p {
     display: none;
   }
