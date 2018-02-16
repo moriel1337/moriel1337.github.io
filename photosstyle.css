@@ -1,0 +1,270 @@
+/* - - - - - - FONTS - - - - - - */
+
+@font-face {
+  font-family: caveat-regular;
+  src: url("fonts/caveat-regular.ttf");
+}
+
+@font-face {
+  font-family: Handlee;
+  src: url("fonts/Handlee.ttf");
+}
+
+@font-face {
+  font-family: HomemadeApple;
+  src: url("fonts/HomemadeApple.ttf");
+}
+
+/* - - - - - - BACKGROUND - - - - - - */
+
+body {
+  height: 100%;
+}
+
+.bg-image {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;
+  /*
+  overflow: scroll;
+  */
+  width: 100vw;
+  height: 100%;
+  background-image: url("images/tomor/hatter/photos-bg1.jpg");
+  background-position: 50% 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* - - - - - - NAVIGATION - - - - - -*/
+
+.navigation {
+  position: sticky;
+  top: 50px;
+  z-index: 10;
+}
+
+.navigation li {
+  list-style: none;
+  display: inline-block;
+  font-size: 2.3vw;
+  color: white;
+  margin: 0 3%;
+}
+
+.navigation ul {
+  margin: 40px 0;
+  text-align: center;
+  padding: 0px;
+  font-family: "HomemadeApple", cursive;
+}
+
+#logopicture {
+ height: 180px;
+}
+
+/* - - - - - - PHOTOGRID - - - - - - */
+
+.phototitle {
+  font-family: HomemadeApple;
+  color: white;
+  font-size: 35px;
+}
+
+.photogrid {
+  border-bottom: 1px white solid;
+  border-top: 1px white solid;
+}
+
+p {
+  font-family: "caveat-regular", cursive;
+  font-size: 20px;
+  color: white;
+}
+
+/* - - - - - - HOVER - - - - - - */
+
+.eskuvogrid img:hover {
+  transform: scale(1.05);
+}
+
+.navigation li:hover {
+  transform: scale(1.1);
+  transition-duration: 0.2s;
+}
+
+.navigation li {
+  transform: scale(1);
+  transition-duration: 0.2s;
+}
+
+/* - - - - - - - - - - - - INDEX - - - - - - - - - - - - */
+
+.welcome-text p {
+  font-family: "caveat-regular", cursive;
+  font-size: 1.15vw;
+}
+
+.bg-image-index {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;
+  overflow: scroll;
+  width: 100vw;
+  height: 100%;
+  background-image: url("images/tomor/hatter/index-bg1.jpg");
+  background-position: 50% 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* - - - - - - - - - - - - ESKÜVŐ - - - - - - - - - - - - */
+
+h1 {
+  font-family: HomemadeApple;
+  color: white;
+  font-size: 40px;
+}
+
+.eskuvogrid {
+  border-bottom: 1px white solid;
+  border-top: 1px white solid;
+}
+
+#arrow {
+  width: 3%;
+}
+
+.bg-image-eskuvo {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;
+  /*
+  overflow: scroll;
+  */
+  width: 100vw;
+  height: 100%;
+  background-image: url("images/tomor/hatter/eskuvo-bg1.jpg");
+  background-position: 50% 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* - - - - - - - - - - - - CSALÁD - - - - - - - - - - - - */
+
+.bg-image-csalad {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;
+  /*
+  overflow: scroll;
+  */
+  width: 100vw;
+  height: 100%;
+  background-image: url("images/tomor/hatter/csalad-bg2.jpg");
+  background-position: 50% 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* - - - - - - - - - - - - PÁROK - - - - - - - - - - - - */
+
+.bg-image-parok {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;
+  /*
+  overflow: scroll;
+  */
+  width: 100vw;
+  height: 100%;
+  background-image: url("images/tomor/hatter/parok-bg2.jpg");
+  background-position: 50% 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+/* - - - - - - - - - - - - ABOUTME - - - - - - - - - - - - */
+
+.bg-image {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;
+  overflow: scroll;
+  width: 100vw;
+  height: 100%;
+  background-image: url("images/hatter/bg2.jpg");
+  background-position: 50% 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#aboutmelogo {
+  width: 25%;
+  border-radius: 300px;
+}
+
+/* - - - - - - MEDIA QUERIES - - - - - -*/
+
+@media screen and (max-width: 600px) {
+  body {
+    background-image: url("images/hatter/bg4small.jpg");
+  }
+  p {
+    font-size: 24px;
+    text-align: center;
+  }
+  .navigation {
+    margin-top: -30px;
+  }
+  .navigation li {
+    font-size: 40px;
+    margin: 8px 0;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+  }
+  ul li:nth-child(3) {
+    order: -1;
+  }
+  #logopicture {
+    width: 60%;
+    height: 60%;
+  }
+  .photogrid img {
+    margin-bottom: 25px;
+  }
+  .welcome-text p {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 600px) {
+  .bg-image {
+  }
+}
